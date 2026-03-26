@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>Projeto Sorteio</title>
+  </head>
+  <body>
+    <main>
+      <h1>Sorteio Random</h1>
+      <div class="container">
+        <input
+          type="number"
+          id="inputMin"
+          placeholder="Digite o valor mínimo"
+        />
+        <input
+          type="number"
+          id="inputMax"
+          placeholder="Digite o valor máximo"
+        />
+        <button id="randomButton" onclick="randomNumberWithClick()">
+          Sortear
+        </button>
+      </div>
+      <p id="result"></p>
+    </main>
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
