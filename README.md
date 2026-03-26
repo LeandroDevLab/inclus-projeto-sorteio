@@ -55,7 +55,7 @@ O sistema trata erros comuns, como:
 1. Baixe ou clone este repositório:
 
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/LeandroDevLab/inclus-projeto-sorteio.git
 ```
 
 2. Abra o arquivo:
